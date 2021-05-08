@@ -15,7 +15,7 @@ function App() {
                <Home/>
               </>
             )} />
-       <Route path="/product" component={Product} />
+       <Route path="/product/:id" component={Product} />
       <Footer/>
     </Router>
   );
