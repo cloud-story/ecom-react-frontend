@@ -7,4 +7,4 @@ This is a React Bootstrap Based Ecom site example
 Based on Bootstrap templates designed by t-php: https://github.com/T-PHP/Bootstrap-4-Ecommerce-Theme
 
 
-##Pedning Integration on Spring Boot Backend
+## Pedning Integration on Spring Boot Backend
