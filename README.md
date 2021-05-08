@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# React-Bootstrap Ecom site
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## ecom-react-frontend
 
 This is a React Bootstrap Based Ecom site example
 
