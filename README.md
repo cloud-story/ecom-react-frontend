@@ -5,3 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is a React Bootstrap Based Ecom site example
 
 Based on Bootstrap templates designed by t-php: https://github.com/T-PHP/Bootstrap-4-Ecommerce-Theme
+
+
+##Pedning Integration on Spring Boot Backend
