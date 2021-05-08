@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 
 const NavLink = ({ link, title, variant }) => {
 let liClass = 'nav-item';
@@ -6,7 +7,8 @@ liClass = (variant === "active"?liClass+' active':liClass);
 
     return (
         <li className={liClass}>
-            <a className="nav-link" href={link}>{title} 
+            <Link className="nav-link" to={link}>{title}
+            
             
             {
                 variant === "active"?
@@ -14,7 +16,7 @@ liClass = (variant === "active"?liClass+' active':liClass);
                     :null
             }
             
-            </a>
+            </Link>
         </li>
     )
 }

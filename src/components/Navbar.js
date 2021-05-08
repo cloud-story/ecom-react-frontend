@@ -1,10 +1,11 @@
 import NavLink from "./NavLink"
 import SearchBox from "./SearchBox"
+import {Link} from 'react-router-dom'
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="index.html">OmniShop</a>
+                <Link className="navbar-brand" to='/'>OmniShop</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -12,9 +13,9 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
                     <ul className="navbar-nav m-auto">
                       
-                        <NavLink link='#' title='Home' variant='active'/>
+                        <NavLink link='/' title='Home' variant='active'/>
                            
-                        <NavLink link='category.html' title='Categories' />
+                        <NavLink link='/Category' title='Categories' />
                         
                         <NavLink link='product.html' title='Product' />
                         

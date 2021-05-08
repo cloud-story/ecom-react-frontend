@@ -1,14 +1,23 @@
 import Navbar from  "./components/Navbar"
-import Header from "./components/Header"
-import ProductCarousel from "./components/ProductCarousel"
+import Home from "./components/Home"
+import Footer from "./components/Footer.js"
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Product from "./components/Product";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar/>
-      <Header/>
-      <ProductCarousel/>
-    </>
+      <Route path='/' 
+            exact
+            render={(props)=>(
+              <>
+               <Home/>
+              </>
+            )} />
+       <Route path="/product" component={Product} />
+      <Footer/>
+    </Router>
   );
 }
 
