@@ -1,4 +1,6 @@
-import Header from "./Header"
+import Header from "../Common/Header"
+import Breadcrumb from "./Breadcrumb"
+import ProductDetails from "./ProductDetails"
 
 const Product = (props) => {
     let title ="Product Page"
@@ -10,6 +12,8 @@ const Product = (props) => {
     return (
         <>
             <Header title={title} desc={desc}/>
+            <Breadcrumb/>
+            <ProductDetails/>
         </>
     )
 }

@@ -1,8 +1,8 @@
-import Navbar from  "./components/Navbar"
-import Home from "./components/Home"
-import Footer from "./components/Footer.js"
+import Navbar from  "./components/Common/Navbar"
+import Home from "./components/HOME/Home"
+import Footer from "./components/Common/Footer.js"
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Product from "./components/Product";
+import Product from "./components/PDP/Product";
 
 function App() {
   return (

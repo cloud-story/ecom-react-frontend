@@ -1,4 +1,4 @@
-import Header from "./Header"
+import Header from "../Common/Header"
 import ProductCarousel from "./ProductCarousel"
 import FeaturedProducts from "./FeaturedProducts"
 const Home = () => {
