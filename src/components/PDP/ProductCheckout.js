@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 const ProductCheckout = () => {
     return (
         <div className="col-12 col-lg-6 add_to_cart_block">
@@ -31,9 +32,9 @@ const ProductCheckout = () => {
                                 </div>
                             </div>
                         </div>
-                        <a href="cart.html" className="btn btn-success btn-lg btn-block text-uppercase">
+                        <Link to="/cart" className="btn btn-success btn-lg btn-block text-uppercase">                       
                             <i className="fa fa-shopping-cart"></i> Add To Cart
-                        </a>
+                        </Link>
                     </form>
                     <div className="product_rassurance">
                         <ul className="list-inline">
@@ -53,7 +54,7 @@ const ProductCheckout = () => {
                         <a className="pull-right" href="#reviews">View all reviews</a>
                     </div>
                     <div className="datasheet p-3 mb-2 bg-info text-white">
-                        <a href="" className="text-white"><i className="fa fa-file-text"></i> Download DataSheet</a>
+                        <a href="/" className="text-white"><i className="fa fa-file-text"></i> Download DataSheet</a>
                     </div>
                 </div>
             </div>

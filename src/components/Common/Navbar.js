@@ -15,11 +15,11 @@ const Navbar = () => {
                       
                         <NavLink link='/' title='Home' variant='active'/>
                            
-                        <NavLink link='/Category' title='Categories' />
+                        <NavLink link='/category/l1' title='Categories' />
                         
                         <NavLink link='product.html' title='Product' />
                         
-                        <NavLink link='cart.html' title='Cart' />
+                        <NavLink link='/cart' title='Cart' />
                         
                         <NavLink link='contact.html' title='Contact' />
                         

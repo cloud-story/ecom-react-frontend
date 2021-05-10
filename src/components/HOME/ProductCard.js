@@ -12,7 +12,7 @@ const ProductCard = ({name,shortdesc, price,image, link}) => {
                             <p className="btn btn-danger btn-block">{price}$</p>
                         </div>
                         <div className="col">
-                            <a href="cart.html" className="btn btn-success btn-block">Add to cart</a>
+                            <Link to="/cart" className="btn btn-success btn-block">Add to cart</Link>
                         </div>
                     </div>
                 </div>
